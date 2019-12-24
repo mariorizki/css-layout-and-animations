@@ -62,13 +62,14 @@ body {
   height: auto;
   justify-self: end;
   align-self: end;
+  position: absolute;
+  bottom: -350px;
 }
 
 #wave1,
 #wave3,
 #wave5 {
   opacity: 0.8;
-  visibility: hidden;
 }
 
 #waves {
@@ -112,7 +113,23 @@ body {
   font-weight: bold;
 }
 
-.cta-desciption {
+.cta-description {
   font-size: 20px;
   color: #333333;
+}
+
+.cta-btn {
+  width: 200px;
+  height: 44px;
+  position: absolute;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: rgb(51, 51, 51);
+  box-shadow: rgba(255, 163, 148, 0.1) 0px 5px 10px;
+  font-family: Alegreya;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
 }
